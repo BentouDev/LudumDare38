@@ -1,0 +1,1043 @@
+fileFormatVersion: 2
+guid: 13a55b5d5fe037a4789a0280ad3fd9d4
+timeCreated: 1492890993
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Chest
+    100004: Cube.004
+    100006: DummyFoot L
+    100008: DummyFoot R
+    100010: DummyHand L
+    100012: DummyHand R
+    100014: Ear 1 L
+    100016: Ear 1 R
+    100018: Ear 2 L
+    100020: Ear 2 R
+    100022: Ear 3 L
+    100024: Ear 3 R
+    100026: ForeArm L
+    100028: ForeArm R
+    100030: Head
+    100032: //RootNode
+    100034: Hips
+    100036: LowerLeg L
+    100038: LowerLeg R
+    100040: Neck
+    100042: Shoulder L
+    100044: Shoulder R
+    100046: Spine
+    100048: UpperArm L
+    100050: UpperArm R
+    100052: UpperLeg L
+    100054: UpperLeg R
+    100056: Camera
+    100058: Cube
+    100060: Cube.001
+    100062: Cube.002
+    100064: DummyFoot L_end
+    100066: DummyFoot R_end
+    100068: DummyHand L_end
+    100070: DummyHand R_end
+    100072: Ear 3 L_end
+    100074: Ear 3 R_end
+    100076: Lamp
+    100078: Cube.003
+    100080: Cube.005
+    100082: Cube.006
+    100084: Tail
+    400000: Armature
+    400002: Chest
+    400004: Cube.004
+    400006: DummyFoot L
+    400008: DummyFoot R
+    400010: DummyHand L
+    400012: DummyHand R
+    400014: Ear 1 L
+    400016: Ear 1 R
+    400018: Ear 2 L
+    400020: Ear 2 R
+    400022: Ear 3 L
+    400024: Ear 3 R
+    400026: ForeArm L
+    400028: ForeArm R
+    400030: Head
+    400032: //RootNode
+    400034: Hips
+    400036: LowerLeg L
+    400038: LowerLeg R
+    400040: Neck
+    400042: Shoulder L
+    400044: Shoulder R
+    400046: Spine
+    400048: UpperArm L
+    400050: UpperArm R
+    400052: UpperLeg L
+    400054: UpperLeg R
+    400056: Camera
+    400058: Cube
+    400060: Cube.001
+    400062: Cube.002
+    400064: DummyFoot L_end
+    400066: DummyFoot R_end
+    400068: DummyHand L_end
+    400070: DummyHand R_end
+    400072: Ear 3 L_end
+    400074: Ear 3 R_end
+    400076: Lamp
+    400078: Cube.003
+    400080: Cube.005
+    400082: Cube.006
+    400084: Tail
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Cube.002
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Cube.002
+    4300000: Cube.004
+    4300002: Cube.002
+    4300004: Cube.001
+    4300006: Cube
+    4300008: Cube.003
+    4300010: Cube.005
+    4300012: Cube.006
+    7400000: Idle Ears
+    7400002: Armature|Idle
+    7400004: Armature|Idle Ears
+    7400006: Armature|None
+    7400008: Armature|Block
+    7400010: Armature|Attack
+    7400012: Armature|Run
+    7400014: Armature|Fall
+    9500000: //RootNode
+    13700000: Cube.004
+    13700002: Cube.003
+    13700004: Cube.005
+    13700006: Cube.006
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Attack
+      takeName: Armature|Attack
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Chest
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L/Ear 2 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L/Ear 2 L/Ear 3 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R/Ear 2 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R/Ear 2 R/Ear 3 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Shoulder L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L/ForeArm L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L/ForeArm L/DummyHand
+          L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R/ForeArm R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R/ForeArm R/DummyHand
+          R
+        weight: 1
+      - path: Armature/Hips/Tail
+        weight: 0
+      - path: Armature/Hips/UpperLeg L
+        weight: 1
+      - path: Armature/Hips/UpperLeg L/LowerLeg L
+        weight: 1
+      - path: Armature/Hips/UpperLeg L/LowerLeg L/DummyFoot L
+        weight: 1
+      - path: Armature/Hips/UpperLeg R
+        weight: 1
+      - path: Armature/Hips/UpperLeg R/LowerLeg R
+        weight: 1
+      - path: Armature/Hips/UpperLeg R/LowerLeg R/DummyFoot R
+        weight: 1
+      - path: Cube.003
+        weight: 0
+      - path: Cube.004
+        weight: 0
+      - path: Cube.005
+        weight: 0
+      - path: Cube.006
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Block
+      takeName: Armature|Block
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Chest
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L/Ear 2 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L/Ear 2 L/Ear 3 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R/Ear 2 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R/Ear 2 R/Ear 3 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Shoulder L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L/ForeArm L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L/ForeArm L/DummyHand
+          L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R/ForeArm R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R/ForeArm R/DummyHand
+          R
+        weight: 1
+      - path: Armature/Hips/Tail
+        weight: 0
+      - path: Armature/Hips/UpperLeg L
+        weight: 1
+      - path: Armature/Hips/UpperLeg L/LowerLeg L
+        weight: 1
+      - path: Armature/Hips/UpperLeg L/LowerLeg L/DummyFoot L
+        weight: 1
+      - path: Armature/Hips/UpperLeg R
+        weight: 1
+      - path: Armature/Hips/UpperLeg R/LowerLeg R
+        weight: 1
+      - path: Armature/Hips/UpperLeg R/LowerLeg R/DummyFoot R
+        weight: 1
+      - path: Cube.003
+        weight: 0
+      - path: Cube.004
+        weight: 0
+      - path: Cube.005
+        weight: 0
+      - path: Cube.006
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Chest
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L/Ear 2 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L/Ear 2 L/Ear 3 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R/Ear 2 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R/Ear 2 R/Ear 3 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Shoulder L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L/ForeArm L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L/ForeArm L/DummyHand
+          L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R/ForeArm R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R/ForeArm R/DummyHand
+          R
+        weight: 1
+      - path: Armature/Hips/Tail
+        weight: 0
+      - path: Armature/Hips/UpperLeg L
+        weight: 1
+      - path: Armature/Hips/UpperLeg L/LowerLeg L
+        weight: 1
+      - path: Armature/Hips/UpperLeg L/LowerLeg L/DummyFoot L
+        weight: 1
+      - path: Armature/Hips/UpperLeg R
+        weight: 1
+      - path: Armature/Hips/UpperLeg R/LowerLeg R
+        weight: 1
+      - path: Armature/Hips/UpperLeg R/LowerLeg R/DummyFoot R
+        weight: 1
+      - path: Cube.003
+        weight: 0
+      - path: Cube.004
+        weight: 0
+      - path: Cube.005
+        weight: 0
+      - path: Cube.006
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|None
+      takeName: Armature|None
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Chest
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L/Ear 2 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L/Ear 2 L/Ear 3 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R/Ear 2 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R/Ear 2 R/Ear 3 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Shoulder L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L/ForeArm L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L/ForeArm L/DummyHand
+          L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R/ForeArm R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R/ForeArm R/DummyHand
+          R
+        weight: 1
+      - path: Armature/Hips/Tail
+        weight: 0
+      - path: Armature/Hips/UpperLeg L
+        weight: 1
+      - path: Armature/Hips/UpperLeg L/LowerLeg L
+        weight: 1
+      - path: Armature/Hips/UpperLeg L/LowerLeg L/DummyFoot L
+        weight: 1
+      - path: Armature/Hips/UpperLeg R
+        weight: 1
+      - path: Armature/Hips/UpperLeg R/LowerLeg R
+        weight: 1
+      - path: Armature/Hips/UpperLeg R/LowerLeg R/DummyFoot R
+        weight: 1
+      - path: Cube.003
+        weight: 0
+      - path: Cube.004
+        weight: 0
+      - path: Cube.005
+        weight: 0
+      - path: Cube.006
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Run
+      takeName: Armature|Run
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Chest
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L/Ear 2 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L/Ear 2 L/Ear 3 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R/Ear 2 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R/Ear 2 R/Ear 3 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Shoulder L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L/ForeArm L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L/ForeArm L/DummyHand
+          L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R/ForeArm R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R/ForeArm R/DummyHand
+          R
+        weight: 1
+      - path: Armature/Hips/Tail
+        weight: 0
+      - path: Armature/Hips/UpperLeg L
+        weight: 1
+      - path: Armature/Hips/UpperLeg L/LowerLeg L
+        weight: 1
+      - path: Armature/Hips/UpperLeg L/LowerLeg L/DummyFoot L
+        weight: 1
+      - path: Armature/Hips/UpperLeg R
+        weight: 1
+      - path: Armature/Hips/UpperLeg R/LowerLeg R
+        weight: 1
+      - path: Armature/Hips/UpperLeg R/LowerLeg R/DummyFoot R
+        weight: 1
+      - path: Cube.003
+        weight: 0
+      - path: Cube.004
+        weight: 0
+      - path: Cube.005
+        weight: 0
+      - path: Cube.006
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Fall
+      takeName: Armature|Fall
+      firstFrame: 0
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Chest
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L/Ear 2 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 L/Ear 2 L/Ear 3 L
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R/Ear 2 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Neck/Head/Ear 1 R/Ear 2 R/Ear 3 R
+        weight: 0
+      - path: Armature/Hips/Spine/Chest/Shoulder L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L/ForeArm L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder L/UpperArm L/ForeArm L/DummyHand
+          L
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R/ForeArm R
+        weight: 1
+      - path: Armature/Hips/Spine/Chest/Shoulder R/UpperArm R/ForeArm R/DummyHand
+          R
+        weight: 1
+      - path: Armature/Hips/Tail
+        weight: 0
+      - path: Armature/Hips/UpperLeg L
+        weight: 1
+      - path: Armature/Hips/UpperLeg L/LowerLeg L
+        weight: 1
+      - path: Armature/Hips/UpperLeg L/LowerLeg L/DummyFoot L
+        weight: 1
+      - path: Armature/Hips/UpperLeg R
+        weight: 1
+      - path: Armature/Hips/UpperLeg R/LowerLeg R
+        weight: 1
+      - path: Armature/Hips/UpperLeg R/LowerLeg R/DummyFoot R
+        weight: 1
+      - path: Cube.003
+        weight: 0
+      - path: Cube.004
+        weight: 0
+      - path: Cube.005
+        weight: 0
+      - path: Cube.006
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.15
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DummyFoot L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DummyFoot R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ForeArm L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ForeArm R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DummyHand L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DummyHand R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: HeroBug(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: HeroBug(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hips
+      parentName: Armature
+      position: {x: 0, y: -0.0000000014305115, z: 0.014842225}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine
+      parentName: Hips
+      position: {x: -0, y: 0.0018000001, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chest
+      parentName: Spine
+      position: {x: -0, y: 0.0022500001, z: 0}
+      rotation: {x: 0, y: -0.00000005960464, z: -0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Neck
+      parentName: Chest
+      position: {x: -0, y: 0.0025500003, z: 0}
+      rotation: {x: 0, y: 0.00000005960464, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Neck
+      position: {x: -0, y: 0.0012000006, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ear 1 L
+      parentName: Head
+      position: {x: -0.00082604797, y: 0.0020365983, z: 0.0011457545}
+      rotation: {x: 0.39479473, y: 0.017777963, z: 0.268028, w: 0.8786251}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Ear 2 L
+      parentName: Ear 1 L
+      position: {x: -1.7881394e-10, y: 0.0021670386, z: -3.129244e-10}
+      rotation: {x: -0.38124785, y: -0.06513436, z: -0.3810022, w: 0.8397886}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Ear 3 L
+      parentName: Ear 2 L
+      position: {x: -3.6321578e-11, y: 0.0019786363, z: 9.778888e-12}
+      rotation: {x: -0.56674796, y: 0.032918867, z: -0.23896122, w: 0.78778845}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Ear 1 R
+      parentName: Head
+      position: {x: 0.00082604797, y: 0.0020365983, z: 0.0011457545}
+      rotation: {x: 0.09386486, y: -0.11623068, z: -0.20602095, w: 0.9670756}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Ear 2 R
+      parentName: Ear 1 R
+      position: {x: 1.564622e-10, y: 0.0021670393, z: 0}
+      rotation: {x: -0.077840485, y: 0.124829315, z: 0.43006122, w: 0.89073336}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ear 3 R
+      parentName: Ear 2 R
+      position: {x: 2.5704502e-10, y: 0.0019786363, z: -4.1909514e-11}
+      rotation: {x: -0.076763876, y: -0.17943352, z: 0.1998717, w: 0.9601886}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Shoulder L
+      parentName: Chest
+      position: {x: -0.0005766538, y: 0.0021750156, z: 0.000005149047}
+      rotation: {x: 0.0000002611938, y: -0.00000007160696, z: 0.7770139, w: 0.62948346}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: UpperArm L
+      parentName: Shoulder L
+      position: {x: 3.6005476e-10, y: 0.0017722748, z: 6.633627e-13}
+      rotation: {x: -0.00000018256294, y: -0.000000053400218, z: -0.074782036, w: 0.9971999}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: ForeArm L
+      parentName: UpperArm L
+      position: {x: 3.601157e-10, y: 0.0031642537, z: -1.1519319e-13}
+      rotation: {x: 0.029479213, y: 0.006331725, z: -0.006122939, w: 0.99952656}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: DummyHand L
+      parentName: ForeArm L
+      position: {x: 1.8341786e-11, y: 0.006390837, z: -8.940697e-11}
+      rotation: {x: 0.569655, y: 0.3454576, z: 0.28567252, w: 0.68887115}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Shoulder R
+      parentName: Chest
+      position: {x: 0.0005766538, y: 0.0021750156, z: 0.0000051489096}
+      rotation: {x: -0.00000045818925, y: -0.00000036104908, z: -0.7770139, w: 0.62948346}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: UpperArm R
+      parentName: Shoulder R
+      position: {x: -3.517483e-10, y: 0.0017722748, z: 7.066987e-13}
+      rotation: {x: -0.00000012219986, y: 0.0000008577227, z: 0.07478192, w: 0.9971999}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: ForeArm R
+      parentName: UpperArm R
+      position: {x: -3.601157e-10, y: 0.0031642537, z: -1.6311219e-13}
+      rotation: {x: 0.029479142, y: -0.0063317004, z: 0.006123169, w: 0.99952656}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: DummyHand R
+      parentName: ForeArm R
+      position: {x: -1.8341786e-11, y: 0.006390837, z: -8.940697e-11}
+      rotation: {x: 0.569655, y: -0.3454576, z: -0.28567252, w: 0.68887115}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: UpperLeg L
+      parentName: Hips
+      position: {x: -0.0015691938, y: -0.0002649931, z: 6.705522e-11}
+      rotation: {x: 0.00046003773, y: 0.044470597, z: 0.998949, w: 0.011093274}
+      scale: {x: 1.000001, y: 1.0000001, z: 1.0000151}
+    - name: LowerLeg L
+      parentName: UpperLeg L
+      position: {x: -2.4978283e-10, y: 0.006778273, z: -5.9371817e-12}
+      rotation: {x: -0.1401935, y: -0.00057765737, z: 0.011094036, w: 0.9900618}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.99999994}
+    - name: DummyFoot L
+      parentName: LowerLeg L
+      position: {x: 2.81957e-10, y: 0.006265969, z: -4.290132e-11}
+      rotation: {x: 0.7584449, y: 0.0000013949435, z: 0.0000015686035, w: 0.6517372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperLeg R
+      parentName: Hips
+      position: {x: 0.0015691938, y: -0.0002649931, z: 6.705522e-11}
+      rotation: {x: -0.00046003773, y: 0.044470597, z: 0.998949, w: -0.011093274}
+      scale: {x: 1.000001, y: 1.0000001, z: 1.0000151}
+    - name: LowerLeg R
+      parentName: UpperLeg R
+      position: {x: 2.4978283e-10, y: 0.006778273, z: -5.9371817e-12}
+      rotation: {x: -0.1401935, y: 0.0005775708, z: -0.011094023, w: 0.9900618}
+      scale: {x: 0.99999994, y: 0.99999976, z: 0.99999994}
+    - name: DummyFoot R
+      parentName: LowerLeg R
+      position: {x: 1.389927e-10, y: 0.00626597, z: -1.4501894e-10}
+      rotation: {x: 0.7584449, y: 0.0000014003522, z: 0.0000015544331, w: 0.6517372}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Cube.004
+      parentName: HeroBug(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
