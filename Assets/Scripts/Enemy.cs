@@ -48,7 +48,7 @@ public class Enemy : Pawn
     bool CheckAttackZone()
     {
         Collider[] colliders = Physics.OverlapSphere(transform.position + transform.rotation * Offset, Radius);
-        InAttackZone = colliders.Any(c => c.GetComponentInParent<Pawn>() == Game.Instance.Pawn);
+        InAttackZone = colliders.Any(c => c.GetComponentInParent<Pawn>() == Game.Instance.Pawn || c.GetComponentInParent<Nexus>());
 
         return InAttackZone;
     }
@@ -110,9 +110,9 @@ public class Enemy : Pawn
             Target = Game.Instance.Pawn.transform;
             TargetPath = PlayerPath;
         }
-        else if (CalcPath(Game.Instance.Nexus.position, NexusPath))
+        else if (CalcPath(Game.Instance.Nexus.transform.position, NexusPath))
         {
-            Target = Game.Instance.Nexus;
+            Target = Game.Instance.Nexus.transform;
             TargetPath = NexusPath;
         }
 

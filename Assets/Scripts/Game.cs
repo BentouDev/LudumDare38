@@ -9,7 +9,7 @@ public class Game : MonoBehaviour
     public Transform WorldRoot;
     public Pawn Pawn;
     public ActionCamera ActionCamera;
-    public Transform Nexus;
+    public Nexus Nexus;
 
     public CanvasGroup WelcomeUI;
     public CanvasGroup LoseUI;

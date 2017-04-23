@@ -6,6 +6,8 @@ using UnityEngine;
 [System.Serializable]
 public class Wave : MonoBehaviour
 {
+    public int Priority = -1;
+
     [SerializeField]
     public float WaveDuration;
 

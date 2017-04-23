@@ -16,10 +16,11 @@ public class GamePlay : GameState
     protected override void OnStart()
     {
         WaveUI.Init();
+        Game.Nexus.Init();
         Game.Pawn.Init();
         Game.ActionCamera.Init();
 
-        Waves = FindObjectsOfType<Wave>().ToList();
+        Waves = FindObjectsOfType<Wave>().OrderBy(w => w.Priority).ToList();
 
         if (Waves.Any())
         {
@@ -41,7 +42,8 @@ public class GamePlay : GameState
 
     protected override void OnUpdate()
     {
-        if (Game.Pawn && !Game.Pawn.IsAlive())
+        if ((Game.Pawn  && !Game.Pawn.IsAlive())
+        ||  (Game.Nexus && !Game.Nexus.IsAlive()))
         {
             Game.SwitchState<GameEnd>();
         }

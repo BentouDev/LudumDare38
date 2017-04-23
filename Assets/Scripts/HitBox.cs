@@ -43,12 +43,11 @@ public class HitBox : MonoBehaviour
 
     void ProcessHit(Collider collider)
     {
-        var pawn = collider.GetComponentInParent<Pawn>() ?? collider.GetComponentInChildren<Pawn>();
-        if (pawn == null || pawn == Owner)
+        IDamageable pawn = collider.GetComponentInParent(typeof(IDamageable)) as IDamageable;
+        if (pawn == null || pawn == (Owner.GetComponentInParent(typeof(IDamageable)) as IDamageable))
             return;
 
-        var direction = Owner.transform.position - pawn.transform.position;
-        var dot = Vector3.Dot(direction, Owner.transform.forward);
+        var direction = Owner.transform.position - collider.transform.position;
         
         pawn.Damage(Damage, LastAttackTime, -direction.normalized);
     }
